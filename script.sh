@@ -7,8 +7,9 @@ then
     git checkout source
 fi
 
-#foundation build
+# foundation build
 yarn build
+# or yarn start to build -> launch
 git checkout main
 
 echo -e "\033[0;32mDeleting old site...\033[0m"
